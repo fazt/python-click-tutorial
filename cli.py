@@ -7,8 +7,6 @@ import click
 def cli():
     pass
 
-# crear
-
 
 @cli.command()
 @click.option('--name', required=True, help="user's name")
